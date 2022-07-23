@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "backvideo",
+        "bloodbutton",
+        "junkdog",
+        "mozallowfullscreen",
+        "svgs",
+        "webkitallowfullscreen"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/5feb1b5c-3488-4f38-b2f4-9d7e8a7f2d99/resourceGroups/BloodHoldersFront/providers/Microsoft.Web/sites/alphabloodholders",
+    "appService.deploySubpath": "."
+}

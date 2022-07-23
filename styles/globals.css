@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "junkdog";
+  src: url("../public/fonts/junkdog.otf") format("opentype");
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.barra {
+  animation: cargabarra 3s;
+}
+
+@keyframes cargabarra {
+  0% {
+    font-size: 0;
+  }
+  100% {
+    font-size: 2.8rem;
+  }
+}
